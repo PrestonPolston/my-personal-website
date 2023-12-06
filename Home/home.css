@@ -1,0 +1,99 @@
+body {
+  background-color: darkslategrey;
+  height: 100vh;
+  box-sizing: border-box;
+}
+nav {
+  background-color: darkgrey;
+  background-size: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+li {
+  text-align: center;
+  display: inline;
+}
+li a {
+  padding: 15px;
+  background-color: darkgray;
+  color: blanchedalmond;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: lightgrey;
+  border-radius: 20%;
+}
+.title {
+  color: blanchedalmond;
+  border-style: groove;
+  border-width: 1px;
+  border-radius: 100px;
+  border-color: blanchedalmond;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+.nickel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.dogtitle {
+  color: blanchedalmond;
+  border: 2px solid blanchedalmond;
+  border-radius: 100px;
+  text-align: center;
+  display: block;
+  margin-top: 5%;
+}
+.leo {
+  width: 200px;
+  padding-left: 100px;
+  /* display:inline;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22%; */
+}
+.leopuppy {
+  width: 200px;
+  padding-left: 100px;
+  /* display: inline;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22%; */
+}
+.leosleeping {
+  height: 200px;
+
+  padding-left: 100px;
+  /* display: inline;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;    */
+}
+section {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  margin: auto;
+}
+.dog {
+  padding: 20px;
+}
+@media screen and (max-width: 500px) {
+  body {
+    background-color: cadetblue;
+  }
+  section {
+    display: block;
+  }
+}
