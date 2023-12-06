@@ -1,0 +1,37 @@
+body {
+  background-color: darkslategrey;
+}
+nav {
+  background-color: darkgrey;
+  background-size: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+li {
+  text-align: center;
+  display: inline;
+}
+li a {
+  padding: 15px;
+  background-color: darkgray;
+  color: blanchedalmond;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: lightgrey;
+  border-radius: 20%;
+}
+h3 {
+  color: blanchedalmond;
+  text-decoration: underline;
+}
+label {
+  color: blanchedalmond;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.thx {
+  color: blanchedalmond !important;
+  text-align: center;
+}
