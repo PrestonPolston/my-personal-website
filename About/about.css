@@ -1,0 +1,38 @@
+body{
+    background-color: darkslategrey;
+}
+nav{
+    background-color: darkgrey;
+    background-size: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+li{
+    text-align: center;
+    display: inline;   
+}
+li a{
+    padding: 15px;
+    background-color: darkgray;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: lightgrey;
+    border-radius: 20%;
+}
+.about{
+    color: blanchedalmond;
+    text-align: center;
+    border: 2px solid blanchedalmond;
+    border-radius: 100px;
+}
+.head{
+    color: blanchedalmond;
+    text-align: center;
+    text-decoration: underline;
+}
+.aboutp{
+    color: blanchedalmond;
+    text-align: center;
+}
