@@ -1,0 +1,60 @@
+body{
+    background-color: darkslategray;
+}
+nav{
+    background-color: darkgrey;
+    background-size: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+li{
+    text-align: center;
+    display: inline;   
+}
+a{
+    padding: 15px;
+    background-color: darkgray;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: lightgrey;
+    border-radius: 20%;
+}
+.title{
+    color:blanchedalmond;
+    border-style: groove;
+    border-width: 1px;
+    border-radius: 100px;
+    border-color: blanchedalmond;
+    text-align: center;
+    display: block;
+    margin-top: 2%;
+}
+.name{
+    color: blanchedalmond;
+}
+.img{
+    height: 125px;
+    overflow: hidden;
+    border-radius: 90%;
+}
+.div1{
+    text-align: center;
+}
+.div2{
+    text-align: center;
+}
+.div3{
+    text-align: center;
+}
+.div4{
+    text-align: center;
+}
+.div5{
+    text-align: center;
+}
+h3{
+    color: blanchedalmond;
+    text-decoration: underline;
+}
